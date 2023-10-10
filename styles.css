@@ -1,0 +1,56 @@
+body {
+  
+    font-family: Akaya Telivigala, sans-serif;
+    
+    margin: 0em;
+    
+  }
+  .p{
+    color:red;
+  }
+  
+  .cover{
+    height:400px;
+    background-image:url(https://cdn.glitch.com/dced3b06-8998-460b-881b-a3451431d10b%2Frsz_1jelleke-vanooteghem-mohb4lcipym-unsplash.jpg?v=1622509989848);
+    color:white;
+    background-size: cover;
+    background-size: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    
+  }
+  
+  .cover-small{
+    height:200px;
+    background-blend-mode:normal;
+  }
+  
+  .card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+  
+  .card-titlle{
+    min-height:2.5rem;
+  }
+  
+  .card-text{
+    min-height:15rem;
+  }
+ 
+  
+  .responsive-iframe{
+    position:relative;
+    padding-top:56.254;
+  }
+  
+  .responsive-iframe iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+  }
+
+  @media (max-width: 767px) {
+  }
+  

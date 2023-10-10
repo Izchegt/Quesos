@@ -1,0 +1,13 @@
+#inicio-container {
+    position: static;
+    bottom: 0;
+    left: 100%; /* Cambiado de "left" a "right" */
+    padding: 20px;
+    text-decoration: black;
+  }
+  
+  .inicio-btn {
+    color: white;
+    text-decoration: black
+  }
+  

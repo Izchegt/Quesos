@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: black;
+  }
+  
+  /* Estilos para el contenedor de productos */
+  #productosContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .producto {
+    width: 48%; /* Ajusta el ancho de cada producto según tu preferencia */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .producto img {
+    width: 25%; /* El ancho de la imagen será el 100% del contenedor */
+    border-radius: 2px;
+  }
+  
+  .producto:hover {
+    transform: scale(1.05);
+  }
+  
+  .producto  {
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+  }
+  
+  .producto  {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 767px) 
+   {
+    #productosContainer {
+      flex-direction: row-reverse;
+    }
+  
+    .producto {
+      width: 50%
+    }
+  }
+  
